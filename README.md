@@ -1,3 +1,22 @@
+# Level-2 Assignment-01 Q/A
+
+This repository contains a collection of **TypeScript questions written in English and answered in Bangla**, including code examples.
+The purpose of this document is to help Bangla-speaking learners understand important TypeScript concepts such as:
+
+- Differences between **type** and **interface**
+- Usage of **keyof**
+- Difference among **any**, **unknown** and **never**
+- Working with **enums**
+- Examples of **union** and **intersection** types
+
+All answers are short, simple, and easy to understand with real TypeScript code examples.
+You can use this README as:
+- A study note
+- A quick reference guide
+- An interview preparation sheet
+- A learning resource for TypeScript in Bangla
+
+
 ## Blogs:
 
 #### **Question 1:** What are some differences between **interfaces** and **types** in TypeScript?
