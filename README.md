@@ -188,7 +188,7 @@ checkRole(Role.USER);  // "user"
 ✔ Answer 5:   
 **Union Type:** Union টাইপ ব্যবহার করলে একটি ভ্যারিয়েবল একাধিক টাইপের যেকোনো একটি মান নিতে পারে।   
 
-``  ` 
+``` 
 let value: string | number;
 
 value = "Hello"; // valid
