@@ -21,7 +21,7 @@ You can use this README as:
 
 #### ❓ **Question 1:** What are some differences between **interfaces** and **types** in TypeScript?
 
-Answer 1:   
+✔ Answer 1:   
 **Interfaces:**
 -  **interface** কীওয়ার্ড দিয়ে ঘোষণা করা হয়
 -  extends দিয়ে অন্য **interface** কে **extend** করতে পারে
@@ -74,7 +74,7 @@ const emp: Employee = {
 
 #### ❓ **Question 2:** What is the use of the **keyof** keyword in TypeScript? Provide an example.
 
-Answer 2: **keyof** ব্যবহার করা হয় কোনো object বা type এর সবগুলো key কে একটি ইউনিয়ন টাইপ হিসেবে পেতে। এটি সাধারণত type-safe access, dynamic key handling এবং generic utility function তৈরির জন্য ব্যবহৃত হয়।        
+✔ Answer 2: **keyof** ব্যবহার করা হয় কোনো object বা type এর সবগুলো key কে একটি ইউনিয়ন টাইপ হিসেবে পেতে। এটি সাধারণত type-safe access, dynamic key handling এবং generic utility function তৈরির জন্য ব্যবহৃত হয়।        
 
 **সুবিধা:**
 - ভুল key access বন্ধ করে
@@ -113,7 +113,7 @@ console.log(getValue(user, "email"));  // valid
 
 #### ❓ **Question 3:** Explain the difference between **any**, **unknown** and **never** types in TypeScript.
 
-Answer 3:   
+✔ Answer 3:   
 - **any:** যেকোনো টাইপ হতে পারে। TypeScript কোনো টাইপ চেক করে না। সবচেয়ে কম নিরাপদ
 ```
 let data: any = 10;
@@ -149,7 +149,7 @@ function infiniteLoop(): never {
 
 #### ❓ **Question 4:** What is the use of **enums** in TypeScript? Provide an example of a numeric and string enum.
 
-Answer 4: **Enum** ব্যবহার করা হয় নির্দিষ্ট কিছু মানকে একটি গ্রুপে রাখার জন্য। এটি কোডকে **পঠনযোগ্য (readable)** এবং **টাইপ-সেফ (type-safe)** করে।
+✔ Answer 4: **Enum** ব্যবহার করা হয় নির্দিষ্ট কিছু মানকে একটি গ্রুপে রাখার জন্য। এটি কোডকে **পঠনযোগ্য (readable)** এবং **টাইপ-সেফ (type-safe)** করে।
 
 ✨ TypeScript এ **numeric enums** এবং **string enums** দুই ধরনের **enum** আছে।  
 
@@ -185,7 +185,7 @@ checkRole(Role.USER);  // "user"
 
 #### ❓ **Question 5:** Provide an example of using **union** and **intersection** types in TypeScript.
 
-Answer 5:   
+✔ Answer 5:   
 **Union Type:** Union টাইপ ব্যবহার করলে একটি ভ্যারিয়েবল একাধিক টাইপের যেকোনো একটি মান নিতে পারে।   
 
 ``  ` 
